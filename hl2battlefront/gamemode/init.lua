@@ -5,10 +5,10 @@ include("shared.lua")
 
 -- Other includes
 AddCSLuaFile("lib/round/cl_round.lua")
-AddCSLuaFile("lib/round/cl_round.lua")
+AddCSLuaFile("lib/lobby/cl_lobby.lua")
 
 include("lib/round/sv_round.lua")
-include("lib/round/sv_round.lua")
+include("lib/lobby/sv_lobby.lua")
 
 function GM:PlayerConnect(name, ip)
     print("Player ".. name .." connected with IP ".. ip ..".")
