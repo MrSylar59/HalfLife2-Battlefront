@@ -1,0 +1,10 @@
+"hl2battlefront"
+{
+  "base"        "base"
+  "title"       "Half Life 2 Battlefront"
+  "maps"        ""
+  "menusystem"  "1"
+  "workshopid"  ""
+
+  "settings"
+}
